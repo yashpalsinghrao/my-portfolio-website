@@ -4,3 +4,108 @@ body{
     margin: 0;
     padding: 20px;
 }
+
+.profile-section {
+    background-color: rgb(219, 219, 219);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   h4{
+    color: #1d0101;
+    margin-bottom: 10px;
+    text-align: center;
+    text-align:top ;
+    margin-top: 5px;
+    font-size: 16px;
+    }
+
+   h1{
+    color: #1d0101;
+    margin-bottom: 10px;
+    text-align: center;
+    text-align:top ;
+    margin-top: 5px;
+    font-size: 35px;
+    }
+
+   h2{
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+    text-align:top ;
+    text-align:center;
+    font-size: 29px;
+    margin-top: 5px;
+    
+    }
+}
+
+.objective-section{
+    background-color: rgb(252, 255, 214);
+    padding: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 94%;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+
+.education-section{
+    background-color: rgb(214, 255, 214);
+    padding: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section{
+    background-color: rgb(107, 107, 107);
+    padding: 50px;
+    margin-bottom: 10px;
+    li{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section{
+    background-color: rgb(151, 151, 151);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;     
+}
+
+.contact-section fieldset {
+    width: 80%;            
+    margin: 10px 0;    
+}
+
+.contact-section div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-section button {
+    padding: 12px 40px;
+    font-size: 18px;    
+    font-weight: bold;  
+    cursor: pointer;    
+    color: white;        
+    background-color: #ff0000; 
+}

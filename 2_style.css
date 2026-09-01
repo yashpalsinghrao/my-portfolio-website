@@ -6,23 +6,15 @@ body{
 }
 
 .profile-section {
-    background-color: rgb(219, 219, 219);
-    padding: 20px;
-    margin-bottom: 20px;
+    background-color: rgba(124, 122, 122, 0.212);
+    padding: 30px;
+    margin-bottom: 50px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(213, 213, 214, 0.1);
     
-   h4{
-    color: #1d0101;
-    margin-bottom: 10px;
-    text-align: center;
-    text-align:top ;
-    margin-top: 5px;
-    font-size: 16px;
-    }
-
+   
    h1{
-    color: #1d0101;
+    color: #0f014e;
     margin-bottom: 10px;
     text-align: center;
     text-align:top ;
@@ -31,7 +23,20 @@ body{
     }
 
    h2{
-    color: #000000;
+    color: #311010cc;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-align:top ;
+    text-align:center;
+    font-size: 29px;
+    margin-top: 5px;
+    
+    }
+
+    h3{
+    color: #922424ee;
+    padding: 1px;
     margin-bottom: 10px;
     text-align: center;
     text-align:top ;
@@ -43,43 +48,87 @@ body{
 }
 
 .objective-section{
-    background-color: rgb(252, 255, 214);
-    padding: 25px;
-    margin-bottom: 50px;
+    background-color: rgba(191, 255, 0, 0.048);
+    padding: 30px;
+    margin-bottom: 55px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 94%;
+    width: 96%;
     word-spacing: 5px;
     line-height: 1.5;
+    
+    h1{
+        text-align: center;
+        color: rgb(1, 16, 82);
+    }
+
+
+
+    h3{
+        font-weight: normal;
+        color: rgb(63, 1, 1);
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
 }
 
 .education-section{
-    background-color: rgb(214, 255, 214);
-    padding: 25px;
+    background-color: rgba(214, 255, 214, 0.322);
+    padding: 30px;
     margin-bottom: 50px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    h1{
+        text-align: center;
+        color: rgb(1, 16, 82);
+    }
+
+    h3{
+        font-weight: normal;
+        color: rgb(63, 1, 1);
+        font-size: 20px;
+        font-weight: bold;
+
+
+      
+        
+    }
 }
 
 .skills-section{
-    background-color: rgb(107, 107, 107);
+    background-color: rgba(252, 0, 0, 0.055);
     padding: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     li{
-        color: white;
+        color: rgb(66, 1, 1);
         font-size: 20px;
         margin-bottom: 10px;
+        font-weight: bold;
     }
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    h1{
+        text-align: center;
+        color: rgb(1, 16, 82);
+    }
+}
+
+.contact-section{
+    background-color: rgba(17, 0, 255, 0.178);
+    padding: 30px;
+    margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-section{
-    background-color: rgb(151, 151, 151);
-    padding: 20px;
+.contact-section h1{
+    text-align: center;
+    color: rgb(1, 10, 83);
     margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 .contact-section {
@@ -98,14 +147,16 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-.contact-section button {
-    padding: 12px 40px;
-    font-size: 18px;    
-    font-weight: bold;  
-    cursor: pointer;    
-    color: white;        
-    background-color: #ff0000; 
+h4{
+    color: #1d0101;
+    margin-bottom: 10px;
+    text-align: center;
+    text-align:top ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
 }
